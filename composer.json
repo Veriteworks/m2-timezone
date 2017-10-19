@@ -1,0 +1,33 @@
+{
+    "name": "veriteworks_timezone",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "description": "Timezone issue for catalog rules on Magento 2",
+    "version": "0.0.1",
+    "authors":[
+        {
+            "name": "Imran Shakil",
+            "email": "imranshakil@gmail.com",
+            "homepage": "http://www.imranshakil.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.2",
+        "magento/module-store": "~100.0",
+        "magento/module-backend": "~100.0",
+        "magento/module-media-storage": "~100.0",
+        "magento/framework": "~100.0",
+        "lib-libxml": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Veriteworks\\Timezone\\": ""
+        }
+    }
+}
