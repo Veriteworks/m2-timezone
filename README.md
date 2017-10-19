@@ -1,4 +1,4 @@
-# magento2-moduleskeleton
+# Magento2-Timezone
 
 Module Magento Timezone issue. <br />
 on catalog rule indexing time zone always set as UTC.
