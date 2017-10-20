@@ -1,5 +1,5 @@
 {
-    "name": "veriteworks_timezone",
+    "name": "veriteworks/m2-timezone",
     "type": "magento2-module",
     "license": [
         "proprietary"
