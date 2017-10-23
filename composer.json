@@ -5,7 +5,7 @@
         "proprietary"
     ],
     "description": "Timezone issue for catalog rules on Magento 2",
-    "version": "0.0.1",
+    "version": "dev-master",
     "authors":[
         {
             "name": "Imran Shakil",
