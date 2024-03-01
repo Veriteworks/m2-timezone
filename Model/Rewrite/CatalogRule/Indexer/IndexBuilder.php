@@ -9,6 +9,8 @@ use Magento\Catalog\Model\Product;
 class IndexBuilder extends \Magento\CatalogRule\Model\Indexer\IndexBuilder
 {
     /**
+     * Apply rules
+     *
      * @param Product|null $product
      * @throws \Exception
      * @return $this
@@ -113,6 +115,8 @@ class IndexBuilder extends \Magento\CatalogRule\Model\Indexer\IndexBuilder
     }
 
     /**
+     * Round time
+     *
      * @param int $timeStamp
      * @return int
      */
